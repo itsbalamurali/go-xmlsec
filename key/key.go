@@ -8,11 +8,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/lestrrat/go-libxml2"
+	"github.com/itsbalamurali/go-xmlsec"
 	"github.com/lestrrat/go-libxml2/dom"
 	"github.com/lestrrat/go-libxml2/parser"
 	"github.com/lestrrat/go-libxml2/types"
-	"github.com/lestrrat/go-xmlsec"
 )
 
 // NewRSA creates a new RSA key representation for the public key

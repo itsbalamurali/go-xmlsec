@@ -4,11 +4,12 @@ import "errors"
 
 const (
 	DSigNs        = "http://www.w3.org/2000/09/xmldsig#"
-	Prefix        = "ds"
+	Prefix        = ""
 	SignatureNode = "Signature"
 )
 
 type KeyDataType uint
+
 const (
 	KeyDataTypeUnknown   KeyDataType = 0x0000
 	KeyDataTypeNone      KeyDataType = 0x0000
